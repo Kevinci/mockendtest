@@ -6,6 +6,8 @@
     "phone": { "string": [
       "+49 000 0000 000"
     ]
-    }
+    },
+    "likes": { "int": { "min": 0, "max": 9999 } },
+    "isActive": { "boolean": {} }
   }
 }
