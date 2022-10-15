@@ -8,6 +8,9 @@
     ]
     },
     "likes": { "int": { "min": 0, "max": 9999 } },
-    "isActive": { "boolean": {} }
+    "isActive": { "boolean": {} },
+    "userimage": {
+      "regexp": "https://picsum\\.photos/seed/[0-9]{5}/200/200"
+    }
   }
 }
